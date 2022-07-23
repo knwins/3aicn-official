@@ -1,0 +1,11 @@
+#
+# robots.txt for 3MAICN.COM
+#
+
+User-agent: *
+
+Disallow: /qianwei/
+Disallow: /swf/
+Disallow: /manage/
+Disallow: /js/
+Disallow: /template/

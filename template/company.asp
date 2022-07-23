@@ -16,7 +16,7 @@ rs.close
 set rs=nothing%>
 <head>
 <title><%=title%></title>
-<meta http-equiv="Content-type" content="text/html; charset=gb2312" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="<%=descriptions%>">
 <meta name="keywords" content="<%=key%>">
 <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -27,18 +27,18 @@ set rs=nothing%>
     <div class="logo"><img src="images/logo.gif"></div>
     <h1 style="position:absolute; top:76px; left:24px; color:#000; font-weight:normal; font-size:12px; margin:0; padding:0;"> <%=descriptions%></h1>
     <div class="language" style="top:15px;">
-      <p> <a href="/" target="_self">ÖÐÎÄ°æ</a> <a href="/en">ENGLISH</a></p>
+      <p> <a href="/" target="_self">ä¸­æ–‡ç‰ˆ</a> <a href="/en">ENGLISH</a></p>
     </div>	
-    <div class="tel">¿Í·þ£º400442113</div>
+    <div class="tel">å®¢æœï¼š400442113</div>
     <div id="nav" style="top:100px;">
-      <ul><li style="padding-left:10px;"><a href="index.html">Ê×&nbsp;&nbsp;Ò³</a></li>
-        <li><a href="probig_78.html">3M·À»ð²ÄÁÏ</a></li>
-        <li><a href="solutions.html">µçÁ¦Éè±¸</a></li>
-		 <li><a href="applications.html">²úÆ·Ó¦ÓÃ</a></li>
-        <li><a href="caselist.html">¹¤³Ì°¸Àý</a></li>
-        <li><a href="news.html">×îÐÂ¶¯Ì¬</a></li>
-        <li><a href="aboutus.html">¹ØÓÚÈý°®</a></li>
-        <li><a href="contactus.html">ÁªÏµÎÒÃÇ</a></li>
+      <ul><li style="padding-left:10px;"><a href="index.html">é¦–&nbsp;&nbsp;é¡µ</a></li>
+        <li><a href="probig_78.html">3Mé˜²ç«ææ–™</a></li>
+        <li><a href="solutions.html">ç”µåŠ›è®¾å¤‡</a></li>
+		 <li><a href="applications.html">äº§å“åº”ç”¨</a></li>
+        <li><a href="caselist.html">å·¥ç¨‹æ¡ˆä¾‹</a></li>
+        <li><a href="news.html">æœ€æ–°åŠ¨æ€</a></li>
+        <li><a href="aboutus.html">å…³äºŽä¸‰çˆ±</a></li>
+        <li><a href="contactus.html">è”ç³»æˆ‘ä»¬</a></li>
 
       </ul>
     </div>
@@ -49,32 +49,32 @@ set rs=nothing%>
   <tr>
     <td><div class="boxe_com">
       <div class="box">
-        <div class="boxtitle"><a>Èý°®µçÁ¦ÁªÏµ·½Ê½</a></div>
+        <div class="boxtitle"><a>ä¸‰çˆ±ç”µåŠ›è”ç³»æ–¹å¼</a></div>
         <div class="boxcont"><br />
-          <p>¹«Ë¾µØÖ·£ºÉîÛÚÊÐ¸£ÌïÇø°ËØÔÁë¹¤ÒµÇø526¶°618<br />
-            ¿Í·þ£º4000442113
+          <p>å…¬å¸åœ°å€ï¼šæ·±åœ³å¸‚ç¦ç”°åŒºå…«å¦å²­å·¥ä¸šåŒº526æ ‹618<br />
+            å®¢æœï¼š4000442113
 <br />
-            ´«Õæ£º+86-755-28260069
+            ä¼ çœŸï¼š+86-755-28260069
 <br />
-            µçÓÊ£ºgoumike@163.com<br />
-          ¿Í·þ24Ð¡Ê±ÈÈÏß£º13600442113</p>
-          <p>ÍøÖ·£º<a href="Http://www.3aicn.com">Http://www.3aicn.com</a></p>
+            ç”µé‚®ï¼šgoumike@163.com<br />
+          å®¢æœ24å°æ—¶çƒ­çº¿ï¼š13600442113</p>
+          <p>ç½‘å€ï¼š<a href="Http://www.3aicn.com">Http://www.3aicn.com</a></p>
           <p><img src="images/contactus.gif"></p>
         </div>
       </div>
       <div class="box2_com">
-        <div class="boxtitle3"><a ><%=cname %></a><span><a href="/">Ê×Ò³</a> >> <%=cname %></span></div>
+        <div class="boxtitle3"><a ><%=cname %></a><span><a href="/">é¦–é¡µ</a> >> <%=cname %></span></div>
         <div class="content" style="padding-top:12px;"><%=content%> </div>
       </div>
     </div></td>
   </tr>
   <tr>
     <td><div id="footer">
-      <div class="footernav"> <a href="/index.html">Ê×Ò³</a>| <a href="product.html">²úÆ·ÖÐÐÄ</a>| <a href="caselist.html">¹¤³Ì°¸Àý</a>| <a href="rongyu.html">ÆóÒµÈÙÓþ</a>| <a href="qanda.html">³£¼ûÎÊÌâ</a>| <a href="aboutus.html">¹ØÓÚÎÒÃÇ</a>| <a href="contactus.html">ÁªÏµ·½Ê½</a> </div>
-      <p style=" padding-top:5px;">Copyright &copy; 2003-2011 ÉîÛÚÊÐÈý°®µçÁ¦¼¼ÊõÓÐÏÞ¹«Ë¾, All Rights Reserved &nbsp;&nbsp; ÔÁICP±¸06023278¡¡ <br />
-        ¹ã¶«ÉîÛÚ£º ÉîÛÚÊÐ¸£ÌïÇø°ËØÔÁë¹¤ÒµÇø526¶°618  ¿Í·þ£º4000442113
- ´«Õæ£º0755-28260069
- ÊÖ»ú£º13600442113<br />
+      <div class="footernav"> <a href="/index.html">é¦–é¡µ</a>| <a href="product.html">äº§å“ä¸­å¿ƒ</a>| <a href="caselist.html">å·¥ç¨‹æ¡ˆä¾‹</a>| <a href="rongyu.html">ä¼ä¸šè£èª‰</a>| <a href="qanda.html">å¸¸è§é—®é¢˜</a>| <a href="aboutus.html">å…³äºŽæˆ‘ä»¬</a>| <a href="contactus.html">è”ç³»æ–¹å¼</a> </div>
+      <p style=" padding-top:5px;">Copyright &copy; 2003-2011 æ·±åœ³å¸‚ä¸‰çˆ±ç”µåŠ›æŠ€æœ¯æœ‰é™å…¬å¸, All Rights Reserved &nbsp;&nbsp; ç²¤ICPå¤‡06023278ã€€ <br />
+        å¹¿ä¸œæ·±åœ³ï¼š æ·±åœ³å¸‚ç¦ç”°åŒºå…«å¦å²­å·¥ä¸šåŒº526æ ‹618  å®¢æœï¼š4000442113
+ ä¼ çœŸï¼š0755-28260069
+ æ‰‹æœºï¼š13600442113<br />
       <%=description%> <script src="http://s16.cnzz.com/stat.php?id=3224905&web_id=3224905&show=pic" language="JavaScript"></script></p>
     </div></td>
   </tr>

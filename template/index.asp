@@ -11,7 +11,7 @@ rs.close
 set rs=nothing%>
 <head>
 <title><%=title%></title>
-<meta http-equiv="Content-type" content="text/html; charset=gb2312" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="<%=description%>">
 <meta name="keywords" content="<%=key%>">
 <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -21,7 +21,7 @@ set rs=nothing%>
 </head>
 <body>
 <div id="container">
-<div class="ggao" id=visible><b>��վ���棺</b><a id=hottext style="color:#FFFFFF"></a><div id=incoming style="DISPLAY: none">
+<div class="ggao" id=visible><b>网站公告：</b><a id=hottext style="color:#FFFFFF"></a><div id=incoming style="DISPLAY: none">
   <div id=AllNews>
   <%
 set rs=server.createobject("adodb.recordset")
@@ -46,18 +46,18 @@ set rs=nothing %>
     <div class="logo"><img src="images/logo.gif"></div>
     <h1 style="position:absolute; top:74px; left:24px; color:#000; font-weight:normal; font-size:12px; margin:0; padding:0;"> <%=description%></h1>
     <div class="language" style="top:15px;">
-      <p> <a href="/" target="_self">���İ�</a> <a href="/en">ENGLISH</a></p>
+      <p> <a href="/" target="_self">中文版</a> <a href="/en">ENGLISH</a></p>
     </div>	
-    <div class="tel">�ͷ���4000442113</div>
+    <div class="tel">客服：4000442113</div>
     <div id="nav" style="top:100px;">
-      <ul><li style="padding-left:10px;"><a href="index.html">��&nbsp;&nbsp;ҳ</a></li>
-        <li><a href="probig_78.html">3M�������</a></li>
-        <li><a href="solutions.html">�����豸</a></li>
-		 <li><a href="applications.html">��ƷӦ��</a></li>
-        <li><a href="caselist.html">���̰���</a></li>
-        <li><a href="news.html">���¶�̬</a></li>
-        <li><a href="aboutus.html">��������</a></li>
-        <li><a href="contactus.html">��ϵ����</a></li>
+      <ul><li style="padding-left:10px;"><a href="index.html">首&nbsp;&nbsp;页</a></li>
+        <li><a href="probig_78.html">3M防火材料</a></li>
+        <li><a href="solutions.html">电力设备</a></li>
+		 <li><a href="applications.html">产品应用</a></li>
+        <li><a href="caselist.html">工程案例</a></li>
+        <li><a href="news.html">最新动态</a></li>
+        <li><a href="aboutus.html">关于三爱</a></li>
+        <li><a href="contactus.html">联系我们</a></li>
 
       </ul>
     </div>
@@ -65,15 +65,15 @@ set rs=nothing %>
     <div id=imgADPlayer style="padding-bottom:5px;" align="center">
  <SCRIPT type="text/javascript">                     
 /*
-*��ȫ�������Ϊhtml��ֱ��ʹ�ã���jsp������
+*此全部代码存为html可直接使用，或jsp中引用
 */
-var widths=950;    /*��ʾ�߶�*/                  
-var heights=250;   /*��ʾ����*/                   
-var counts=3;      /*��Ƭ����*/       
+var widths=950;    /*显示高度*/                  
+var heights=250;   /*显示宽度*/                   
+var counts=3;      /*照片数量*/       
 
 
-//һ��img��Ӧһ������url����������ȡ��ʱ���Ƕ�Ӧ�ģ��������Ķ�������ҲҪ��Ӧ�Ķ�
-//img.src��ָͼƬ·����url�ǵ��ͼƬ����ת��ҳ������
+//一个img对应一个连接url，这在下面取得时候是对应的，如果你想改动，下面也要对应改动
+//img.src是指图片路径，url是点击图片是跳转的页面连接
 <% set rs5=server.createobject("adodb.recordset")
 rs5.open"select * from banner where ver='cn' order by ID asc",conn,1
 j=1  
@@ -89,7 +89,7 @@ wend
 rs5.close
 set rs5=nothing%>
 
-/* ���»�������Ҫ�Ķ������������漰���Ķ������Ͳ�����ʱ�� ����ȻҲ�иĶ��ı�Ҫ*/
+/* 以下基本不需要改动，不过当你涉及到改动变量和参数的时候 ，当然也有改动的必要*/
 var nn = 1;
 var key = 0;
 function change_img() {
@@ -98,7 +98,7 @@ if (key == 0) {
 } else {
    if (document.all) {
     document.getElementById("pic").filters[0].Apply();
-    //ͼƬ�л��ı��е�ʱ�䣬ԽС�л�Խ��
+    //图片切换改变中的时间，越小切换越快
     document.getElementById("pic").filters[0].Play(duration = 2);
    }
 }
@@ -112,7 +112,7 @@ nn++;
 if (nn > counts) {
    nn = 1;
 }
-//ͼƬ�л���ʱ����
+//图片切换的时间间隔
 tt = setTimeout("change_img()", 10000);
 }
 function changeimg(n) {
@@ -144,9 +144,9 @@ change_img();
   </div>
   <div id="maincontent">
     <div class="boxes_1">
-      <!--��Ʒ�б� begin-->
+      <!--产品列表 begin-->
       <div class="box" >
-            <div class="boxtitle"><a>����������Ʒ����</a></div>
+            <div class="boxtitle"><a>三爱电力产品分类</a></div>
             <div style="width:239px; height:240px; padding:6px 2px; border:1px #ff0000 solid; border-top:0px; margin-top:-1px;">
               <div class="indexprolist">
                 <table width="93%" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -198,7 +198,7 @@ change_img();
             </div>
       </div>
       <div class="box2" style="height:290px; right:0; top:0;" >
-        <div class="boxtitle2"><a >���������Ƽ���Ʒ</a> <span><a href="product.html">����&gt;&gt;</a></span> </div>
+        <div class="boxtitle2"><a >三爱电力推荐产品</a> <span><a href="product.html">更多&gt;&gt;</a></span> </div>
         <div class="boxcont2" style="padding-top:12px;">
           <% set rs=server.createobject("adodb.recordset")
 sqlnew="select * from product where ver='cn' and commend=1 order by orders" 
@@ -222,7 +222,7 @@ loop
     </div>
     <div class="boxes">
       <div class="box">
-        <div class="boxtitle"><a>�����������̰���</a> <span><a href="caselist.html">����&gt;&gt;</a></span></div>
+        <div class="boxtitle"><a>三爱电力工程案例</a> <span><a href="caselist.html">更多&gt;&gt;</a></span></div>
         <div style="width:239px; height:300px; padding:6px 2px; border:1px #FF0000 solid; border-top:0px; margin-top:-1px;">
           <div style="text-align:center; margin:4px auto;">
             <div style="position:relative; left:0; top:0; width:220px; height:150px; background:#000">
@@ -261,7 +261,7 @@ set rs=nothing %>
         </div>
       </div>
       <div class="box2"  style="width:450px; height:350px; right:247px; top:0; ">
-        <div class="boxtitle2"><a >����������ƷӦ��</a> <span><a href="solutions.html">����&gt;&gt;</a></span> </div>
+        <div class="boxtitle2"><a >三爱电力产品应用</a> <span><a href="solutions.html">更多&gt;&gt;</a></span> </div>
         <div class="boxcont2">
          
 		 <% set rs=server.createobject("adodb.recordset")
@@ -283,7 +283,7 @@ loop
         </div>
       </div>
       <div class="box2" style="width:240px; height:350px; right:0; top:0;">
-        <div class="boxtitle2"><a >����������ҵ��̬</a> <span><a href="news.html">����&gt;&gt;</a></span> </div>
+        <div class="boxtitle2"><a >三爱电力行业动态</a> <span><a href="news.html">更多&gt;&gt;</a></span> </div>
         <div class="boxcont2">
           <div style="padding:0px 0px  6px 0px;">
             <%
@@ -323,38 +323,38 @@ set rs=nothing %>
           </DIV>
         </div>
       </div>
-      <!--չ����Ϣ  end-->
+      <!--展会信息  end-->
     </div>
     <div style="margin:0px 0px 8px 0px;"><img src="images/pic.jpg" width="950" height="150" /></div>
     <!--3 begin-->
     <div class="boxes">
-      <!--��ϵ���������Ƽ� begin-->
+      <!--联系三爱电力科技 begin-->
       <div class="box">
-        <div class="boxtitle"><a>����������ϵ��ʽ</a> <span><a href="contactus.html">����&gt;&gt;</a></span> </div>
+        <div class="boxtitle"><a>三爱电力联系方式</a> <span><a href="contactus.html">更多&gt;&gt;</a></span> </div>
         <div class="boxcont" style="padding-top:9px;">
-          <p><b>�㶫���ڹ�˾</b></p>
-          <p>��ַ�������и����������빤ҵ<br>
-            ��526��618<br />
-            �ͷ���4000442113
+          <p><b>广东深圳公司</b></p>
+          <p>地址：深圳市福田区八卦岭工业<br>
+            区526栋618<br />
+            客服：4000442113
 <br />
-            ���棺+86-755-28260069
+            传真：+86-755-28260069
 <br />
-            ���ʣ�goumike@163.com<br />
-          �ͷ�24Сʱ���ߣ�13600442113</p>
-          <p><b>��ַ��<a href="Http://www.3aicn.com">Http://www.3aicn.com</a></b></p>
+            电邮：goumike@163.com<br />
+          客服24小时热线：13600442113</p>
+          <p><b>网址：<a href="Http://www.3aicn.com">Http://www.3aicn.com</a></b></p>
           <p><img src="images/contactus.gif" width="212" height="123"></p>
         </div>
       </div>
       <div class="box2"  style="width:450px; height:350px; right:247px; top:0; ">
-        <div class="boxtitle2"><a >����������˾���</a> <span><a href="aboutus.html">����&gt;&gt;</a></span> </div>
+        <div class="boxtitle2"><a >三爱电力公司简介</a> <span><a href="aboutus.html">更多&gt;&gt;</a></span> </div>
         <div class="boxcont2">
           <p><img src="images/2314631833.jpg" alt="" width="413" height="123" border="0" /></p>
-          <p> ���������������������޹�˾��רҵ�ķ����¡��ܷ�ϵͳ�Ĺ��̹�˾��ͬʱ�ṩ���ֲ�Ʒ���ͻ�ѡ��,Ϊ�ͻ��ṩ���Ƶ�ʩ����ѵ���ۺ����ͼ���֧�֡���Ҫ��Ʒ�У�UL��֤��FM��֤�ĵ��Է����ܷ⽺��UL��֤��FM��֤�ķ����ܷ⽺��UL��֤��FM��֤�ķ������ͷ����ࡢUL��֤��FM��֤�������ͷ����ࡢUL��֤��FM��֤������������ִ������Ȧ��UL��֤��FM��֤����ĭ��²��ϡ�UL��֤��FM��֤�ķ��𸴺ϰ塢UL��֤��FM��֤�İ���������ġ�UL��֤��FM��֤�ĵ��·���Ϳ�ϡ�UL��֤��FM��֤�ĸֽṹ����Ϳ�ϡ�</p>
-          <p> �� Ϊ ר ҵ �� �� �� �� �� �� �� !</p>
+          <p> 深圳市三爱电力技术有限公司是专业的防火封堵、密封系统的工程公司，同时提供多种产品供客户选择,为客户提供完善的施工培训、售后服务和技术支持。主要产品有：UL认证和FM认证的弹性防火密封胶、UL认证和FM认证的防火密封胶、UL认证和FM认证的非凝固型防火泥、UL认证和FM认证的凝固型防火泥、UL认证和FM认证的阻火带、不锈钢带、阻火圈、UL认证和FM认证的泡沫封堵材料、UL认证和FM认证的防火复合板、UL认证和FM认证的包覆防火卷材、UL认证和FM认证的电缆防火涂料、UL认证和FM认证的钢结构防火涂料。</p>
+          <p> 因 为 专 业 才 能 让 您 更 放 心 !</p>
         </div>
       </div>
       <div class="box2" style="width:240px; height:350px; right:0; top:0;">
-        <div class="boxtitle2"><a>���������������</a></div>
+        <div class="boxtitle2"><a>三爱电力合作伙伴</a></div>
         <div class="boxcont2">
           <DIV id=Marquee_4_1 style="OVERFLOW: hidden; WIDTH:230px;">
           <p align="center"><a href="http://www.baidu.com" target="_blank"><img src="images/logo/baidu.gif" width="190" height="90" border="0"></a><br>
@@ -368,9 +368,9 @@ set rs=nothing %>
     </div>
     <!--3 end-->
 <div id="footer">
-      <div class="footernav"> <a href="/index.html">��ҳ</a>| <a href="probig_78.html">��Ʒ����</a>| <a href="caselist.html">���̰���</a>| <a href="rongyu.html">��ҵ����</a>| <a href="qanda.html">��������</a>| <a href="aboutus.html">��������</a>| <a href="contactus.html">��ϵ��ʽ</a> </div>
-      <p style=" padding-top:5px;">Copyright &copy; 2003-2011 ���������������������޹�˾, All Rights Reserved &nbsp;&nbsp; ��ICP��06023278�� <br />
-        �㶫���ڣ� �����и����������빤ҵ��526��618  �ͷ���4000442113  ���棺0755-28260069  �ֻ���13600442113 <img width="0" height="0" src="create_index.asp?htime=<%=now%>"><br>
+      <div class="footernav"> <a href="/index.html">首页</a>| <a href="probig_78.html">产品中心</a>| <a href="caselist.html">工程案例</a>| <a href="rongyu.html">企业荣誉</a>| <a href="qanda.html">常见问题</a>| <a href="aboutus.html">关于我们</a>| <a href="contactus.html">联系方式</a> </div>
+      <p style=" padding-top:5px;">Copyright &copy; 2003-2011 深圳市三爱电力技术有限公司, All Rights Reserved &nbsp;&nbsp; 粤ICP备06023278　 <br />
+        广东深圳： 深圳市福田区八卦岭工业区526栋618  客服：4000442113  传真：0755-28260069  手机：13600442113 <img width="0" height="0" src="create_index.asp?htime=<%=now%>"><br>
 <%=description%>
 <script src="http://s16.cnzz.com/stat.php?id=3224905&web_id=3224905&show=pic" language="JavaScript"></script> </p>
     </div>

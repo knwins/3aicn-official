@@ -40,7 +40,7 @@
 <title><%=product_name%>-<%=title%></title>
 <meta name="Keywords" content="<%=key%>" />
 <meta name="Description" content="<%=description%>" />
-<meta http-equiv="Content-type" content="text/html; charset=gb2312" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -49,19 +49,19 @@
     <div class="logo"><img src="images/logo.gif" /></div>
     <h1 style="position:absolute; top:76px; left:24px; color:#000; font-weight:normal; font-size:12px; margin:0; padding:0;"> <%=description%></h1>
     <div class="language" style="top:15px;">
-      <p> <a href="/" target="_self">ÖÐÎÄ°æ</a> <a href="/en">ENGLISH</a></p>
+      <p> <a href="/" target="_self">ä¸­æ–‡ç‰ˆ</a> <a href="/en">ENGLISH</a></p>
     </div>	
-    <div class="tel">¿Í·þ£º4000442113</div>
+    <div class="tel">å®¢æœï¼š4000442113</div>
         <div id="navh2" style="top:100px;">
-     <ul><li style="padding-left:10px;"><a href="index.html">Ê×Ò³</a></li>
-        <li><a href="pro_616.html">3M·À»ð°å</a></li>
-        <li><a href="pro_611.html">3M·À»ðÄà</a></li>
-		 <li><a href="pro_610.html">3M·À»ðÃÜ·â½º</a></li>
-        <li><a href="pro_612.html">3M×è»ð´ø</a></li>
-        <li><a href="pro_615.html">3MµçÀÂ·À»ðÍ¿ÁÏ</a></li>
-        <li><a href="applications.html">3M·À»ð·â¶Â·½°¸</a></li>
-        <li><a href="gongyi.html">3M·À»ð·â¹¤ÒÕ</a></li>
-		<li><a href="caselist.html">3M·À»ð·â°¸Àý</a></li>
+     <ul><li style="padding-left:10px;"><a href="index.html">é¦–é¡µ</a></li>
+        <li><a href="pro_616.html">3Mé˜²ç«æ¿</a></li>
+        <li><a href="pro_611.html">3Mé˜²ç«æ³¥</a></li>
+		 <li><a href="pro_610.html">3Mé˜²ç«å¯†å°èƒ¶</a></li>
+        <li><a href="pro_612.html">3Mé˜»ç«å¸¦</a></li>
+        <li><a href="pro_615.html">3Mç”µç¼†é˜²ç«æ¶‚æ–™</a></li>
+        <li><a href="applications.html">3Mé˜²ç«å°å µæ–¹æ¡ˆ</a></li>
+        <li><a href="gongyi.html">3Mé˜²ç«å°å·¥è‰º</a></li>
+		<li><a href="caselist.html">3Mé˜²ç«å°æ¡ˆä¾‹</a></li>
       </ul>
     </div>
   </div>
@@ -71,7 +71,7 @@
       <tr>
         <td><div class="boxe_com">
           <div class="box" >
-            <div class="boxtitle"><a>Èý°®µçÁ¦²úÆ··ÖÀà</a></div>
+            <div class="boxtitle"><a>ä¸‰çˆ±ç”µåŠ›äº§å“åˆ†ç±»</a></div>
             <div style="width:239px;padding:6px 2px; border:1px #ff0000 solid; border-top:0px; margin-top:-1px;">
               <div class="indexprolist">
                 <table width="93%" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -123,7 +123,7 @@
             </div>
           </div>
           <div class="box2_com">
-            <div class="boxtitle3"><a><%=product_name %></a><span><a href="/" class="pathway">Ê×Ò³</a> >> ²úÆ·Õ¹Ê¾ >> <%=PRODUCT_NAME_BIG%> >> <%=PRODUCT_NAME_SMALL%></span></div><div class="boxcont3" style="padding-top:12px;">
+            <div class="boxtitle3"><a><%=product_name %></a><span><a href="/" class="pathway">é¦–é¡µ</a> >> äº§å“å±•ç¤º >> <%=PRODUCT_NAME_BIG%> >> <%=PRODUCT_NAME_SMALL%></span></div><div class="boxcont3" style="padding-top:12px;">
               <table cellspacing=0 cellpadding=0 width="99%" align=center border=0>
                 <tr>
                   <td height="32" align="center"><div class="content"><img src="<%=B_IMAGE%>" /></div></td>
@@ -138,11 +138,11 @@
       </tr>
       <tr>
         <td><div id="footer">
-          <div class="footernav"> <a href="/index.html">Ê×Ò³</a>| <a href="product.html">²úÆ·ÖÐÐÄ</a>| <a href="caselist.html">¹¤³Ì°¸Àý</a>| <a href="rongyu.html">ÆóÒµÈÙÓþ</a>| <a href="qanda.html">³£¼ûÎÊÌâ</a>| <a href="aboutus.html">¹ØÓÚÎÒÃÇ</a>| <a href="contactus.html">ÁªÏµ·½Ê½</a> </div>
-          <p style=" padding-top:5px;">Copyright &copy; 2003-2011 ÉîÛÚÊÐÈý°®µçÁ¦¼¼ÊõÓÐÏÞ¹«Ë¾, All Rights Reserved &nbsp;&nbsp; ÔÁICP±¸06023278¡¡ <br />
-            ¹ã¶«ÉîÛÚ£º ÉîÛÚÊÐ¸£ÌïÇø°ËØÔÁë¹¤ÒµÇø526¶°618  ¿Í·þ£º4000442113
-            ´«Õæ£º0755-28260069
-            ÊÖ»ú£º13600442113<br />
+          <div class="footernav"> <a href="/index.html">é¦–é¡µ</a>| <a href="product.html">äº§å“ä¸­å¿ƒ</a>| <a href="caselist.html">å·¥ç¨‹æ¡ˆä¾‹</a>| <a href="rongyu.html">ä¼ä¸šè£èª‰</a>| <a href="qanda.html">å¸¸è§é—®é¢˜</a>| <a href="aboutus.html">å…³äºŽæˆ‘ä»¬</a>| <a href="contactus.html">è”ç³»æ–¹å¼</a> </div>
+          <p style=" padding-top:5px;">Copyright &copy; 2003-2011 æ·±åœ³å¸‚ä¸‰çˆ±ç”µåŠ›æŠ€æœ¯æœ‰é™å…¬å¸, All Rights Reserved &nbsp;&nbsp; ç²¤ICPå¤‡06023278ã€€ <br />
+            å¹¿ä¸œæ·±åœ³ï¼š æ·±åœ³å¸‚ç¦ç”°åŒºå…«å¦å²­å·¥ä¸šåŒº526æ ‹618  å®¢æœï¼š4000442113
+            ä¼ çœŸï¼š0755-28260069
+            æ‰‹æœºï¼š13600442113<br />
                <%=description%> <script src="http://s16.cnzz.com/stat.php?id=3224905&web_id=3224905&show=pic" language="JavaScript"></script></p>
         </div></td>
       </tr>
